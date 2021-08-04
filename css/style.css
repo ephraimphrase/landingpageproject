@@ -64,6 +64,7 @@ li a{
     color: #fff;
     background: #000;
     position: relative;
+    border: none;
 }
 
 figure{
