@@ -1,0 +1,62 @@
+nav{
+    display: flex;
+}
+.logo{
+    padding-left: 20px;
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+.menu{
+    width: 75%;
+}
+li a{
+    text-decoration: none;
+    padding: 20px;
+    color: grey;
+}
+.sub-menu{
+    margin-top: 1rem;
+}
+
+.button1{
+    border: none;
+    color: black;
+    background: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.button2{
+    border: 1px solid #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: #000;
+}
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-txt{
+    padding-left: 7rem;
+}
+
+.hero-txt h1{
+    font-size: 4rem;
+}
+.hero-txt p{
+    font-size: 1.5rem;
+    position: relative;
+}
+.hero .left{
+    text-align: start;
+}
+.hero-button{
+    padding: 10px 20px;
+    color: #fff;
+    background: #000;
+    position: relative;
+}
