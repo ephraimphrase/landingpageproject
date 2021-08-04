@@ -15,6 +15,10 @@ li{
 .menu{
     width: 75%;
 }
+
+i{
+    display: none;
+}
 li a{
     text-decoration: none;
     padding: 20px;
@@ -69,4 +73,54 @@ li a{
 
 figure{
     padding-right: 7.7rem;
+}
+
+@media screen and (max-width: 700px) {
+    .menu li{
+        display: none;
+    }
+    .sub-menu{
+        display: none;
+    }
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+
+        
+    .hero-txt{
+        padding-left: 0;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .hero-txt h1{
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .hero-txt p{
+        font-size: 1rem;
+        position: relative;
+        text-align: center;
+    }
+
+    figure img{
+        padding-right: 0;
+        text-align: center;
+        width: 300px;
+        height: 300px;
+    }
+
+    .logo{
+        padding-left: 0;
+    }
+
+    .ri-menu-line{
+        display: flex;
+        padding-top: 15px;
+    }
+
 }
